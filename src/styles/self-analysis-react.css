@@ -1,0 +1,73 @@
+.self-analysis-root {
+  --query-height: max(650px, calc(100vh - 74px));
+  height: var(--query-height);
+  overflow: auto;
+}
+.dd-btn select {
+  border: 0;
+  background: white;
+  color: #253140;
+  font: inherit;
+}
+.template-menu {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 10;
+  background: white;
+  border: 1px solid #dfe7f2;
+  box-shadow: 0 8px 20px #25314022;
+  min-width: 120px;
+  padding: 4px;
+}
+.template-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+}
+.more-card > summary {
+  list-style: none;
+  cursor: pointer;
+}
+.more-card .met-item {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 6px 10px;
+}
+.ot-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 7px 0;
+}
+.more-card .dim-chips,
+.more-card .sort-line {
+  padding: 10px;
+}
+.met-search {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.met-search svg {
+  width: 16px;
+  height: 16px;
+}
+.met-tree .met-item {
+  display: flex;
+  gap: 8px;
+  padding: 7px;
+}
+.met-ghead {
+  padding: 8px;
+  color: #8291a2;
+}
+.self-analysis-root .dlg-mask {
+  position: fixed;
+}
+.self-analysis-root .dlg-mask:not(.met-mask):not(.log-mask) .dlg {
+  max-height: 85vh;
+  overflow: auto;
+}

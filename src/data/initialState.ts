@@ -35,5 +35,5 @@ export const initialState = {
   rank: '船舶排名',
   rankPage: 1,
   detailFleet: '全部',
-  detailRank: '船舶排名'
+  detailRank: '船舶排名',
 };
